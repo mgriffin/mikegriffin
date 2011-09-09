@@ -1,0 +1,4 @@
+pygments: true
+url: /jekyll
+markdown: rdiscount
+permalink: /blog/:year:month:day-:title
