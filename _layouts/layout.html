@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body>
-    <header>
-    <h1><a href="{{ site.url }}">mikegriffin.ie</a></h1>
-    </header>
-    <section>
+    <div id="header">
+      <h1><a href="{{ site.url }}">mikegriffin.ie</a></h1>
+      <ul id="links">
+        <li><a href="{{ site.url }}/blog">archive</a></li>
+        <li><a href="{{ site.url }}/about_me">about me</a></li>
+      </ul>
+    </div>
+    <div id="section">
       {{ content }}
-    </section>
+    </div>
   </body>
 </html>

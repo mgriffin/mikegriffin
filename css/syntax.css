@@ -97,6 +97,81 @@ a:hover { color:#036; }
 
 /* general */
 html { overflow-y: scroll; }
+#header {
+  width: 960px;
+  margin: 0 auto 20px;
+  border-bottom: 3px solid #999;
+}
+#header h1 {
+  text-align: right;
+  margin-bottom: 0;
+}
+#header a {
+  text-decoration: none;
+}
+#header ul {
+  margin: -15px 0 10px 0;
+}
+#header li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+#section {
+  width: 960px;
+  margin: 0 auto;
+}
+img {
+  -moz-box-sizing: border-box;
+  border: 0.5em solid white;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+#breadcrumb {
+  color: #999;
+}
+#post h2 {
+  margin-bottom: 0;
+}
+#post h2 a {
+  text-decoration: none;
+}
+#post p {
+  margin-top: 0;
+}
+#post pre {
+  border: 1px solid #999;
+  background: #eee;
+}
+.date {
+  color: #999;
+}
+time {
+  color: #999;
+  display: inline-block;
+  float: right;
+}
+h3.archive_year {
+  float: left;
+  margin: 0;
+  color: #999;
+}
+ol.archive {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ol.archive > li {
+  border-bottom: 1px solid #999;
+  margin: 0 0 5px 60px;
+  padding: 0 0 5px;
+}
+ol.archive > li:hover {
+  background: #eee;
+}
+ol.archive a {
+  text-decoration: none;
+}
 /* end of general */
 
 /* syntax highlighting */
