@@ -14,8 +14,8 @@ end
 
 desc "Deploy to local site"
 task :local do
-  puts "## Deploying website to http://grff.in/test/"
-  system "rm -rf ~/grff.in/jekyll"
-  system "cp -r #{public_dir} ~/grff.in/jekyll"
+  puts "## Deploying website to http://mikegriffin.ie/"
+  system "rm -rf ~/mikegriffin.ie/current/public"
+  system "cp -r #{public_dir} ~/mikegriffin.ie/current/public"
 end
 
