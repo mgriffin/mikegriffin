@@ -1,12 +1,16 @@
 ---
 layout: layout
-title: Jekyll Base
+title: mikegriffin.ie
 ---
 
 <div class="content">
+  <div id="post">
+    <h1>{{ site.posts.first.title }}</h1>
+    {{ site.posts.first.content }}
+  </div>
   <div class="related">
     <ul>
-      {% for post in site.posts %}
+      {% for post in site.posts offset:1 %}
       <li>
       <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{post.url }}">{{ post.title }}</a>
       </li>
