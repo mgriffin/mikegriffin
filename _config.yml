@@ -1,4 +1,4 @@
-exclude: ['Rakefile', 'README.md']
+exclude: ['Rakefile', 'README.md', '_drafts']
 pygments: true
 url: /jekyll
 markdown: rdiscount
