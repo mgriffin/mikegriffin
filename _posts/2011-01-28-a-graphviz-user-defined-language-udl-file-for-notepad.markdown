@@ -19,7 +19,7 @@ To fix this, I made a very simple user-defined language for
 only fits that. It supports comments and all the keywords that I used over the
 last few days. So without further ado, here is what I came up with.
 
-{% highlight ruby %}
+{% highlight ini %}
 <NotepadPlus>
     <UserLang name="graphviz" ext="">
         <Settings>

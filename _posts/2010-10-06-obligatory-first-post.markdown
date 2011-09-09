@@ -19,4 +19,3 @@ So here we go, off on a new adventure, all over again. Until I get comments
 working, you can keep in contact with me on
 [twitter]("http://www.twitter.com/griffinmike") or by
 [email]("mailto:iam@mikegriffin.ie")
-        
