@@ -3,3 +3,4 @@ pygments: true
 url: http://mikegriffin.ie
 markdown: rdiscount
 permalink: /blog/:year:month:day-:title
+baseurl: http://mikegriffin.ie/
