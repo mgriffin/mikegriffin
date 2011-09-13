@@ -12,6 +12,7 @@ task :default => [:generate, :local]
 desc "Generate jekyll site"
 task :generate do
   puts "## Generating Site with Jekyll"
+  FileUtils.rm_rf("_site")
   system "jekyll"
 end
 
