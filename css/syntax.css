@@ -111,6 +111,7 @@ html { overflow-y: scroll; }
 }
 #header ul {
   margin: -15px 0 10px 0;
+  padding: 0;
 }
 #header li {
   display: inline;
@@ -154,6 +155,7 @@ time {
 h3.archive_year {
   float: left;
   margin: 0;
+  padding: 5px 0;
   color: #999;
 }
 ol.archive {
@@ -163,8 +165,8 @@ ol.archive {
 }
 ol.archive > li {
   border-bottom: 1px solid #999;
-  margin: 0 0 5px 60px;
-  padding: 0 0 5px;
+  margin: 0 0 0 60px;
+  padding: 5px 2px;
 }
 ol.archive > li:hover {
   background: #eee;
