@@ -1,0 +1,10 @@
+---
+layout: none
+permalink: .htaccess
+---
+DirectoryIndex index.html index.xml
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /contact http://mikegriffin.ie/about_me/
+Redirect 301 /tags http://mikegriffin.ie/blog/
