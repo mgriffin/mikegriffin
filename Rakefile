@@ -45,6 +45,25 @@ task :post do
   end
 end
 
+desc "Make thumbnails for all posts"
+task :pics do
+  Dir.chdir('images') do
+    Dir['*/'].map do |d|
+      Dir.chdir(d) do
+        puts Dir.pwd
+        FileUtils.mkdir_p('thumbs') unless File.directory?('thumbs')
+        Dir.glob('*.jpg') do |image|
+          dest = File.join('thumbs', image)
+          unless File.exists?(dest)
+            system("convert -format jpg -quality 75 -resize \"640x480>\" -strip #{image} #{dest}")
+            puts "#{image} converted"
+          end
+        end
+      end
+    end
+  end
+end
+
 def ask(message, valid_options)
   if valid_options
     answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
