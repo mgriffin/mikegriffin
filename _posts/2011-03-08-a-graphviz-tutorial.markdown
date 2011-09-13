@@ -103,4 +103,4 @@ The final image looks like this. It shows the hierarchy of the switches and
 even where the servers are connected as well.
 
 
-[![]({{ site.url }}/images/graphviz/thumbs/graph.png)]({{ site.url }}/images/graphviz/graph.png)
+[![]({{ site.url }}/images/2011-03-08-a-graphviz-tutorial/thumbs/graph.png)]({{ site.url }}/images/2011-03-08-a-graphviz-tutorial/graph.png)
