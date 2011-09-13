@@ -7,4 +7,5 @@ DirectoryIndex index.html index.xml
 ErrorDocument 404 /404.html
 
 Redirect 301 /contact http://mikegriffin.ie/about_me/
+Redirect 301 /blog/20110128-cropped-png-and-jpg-graphs-when-using-scruffy http://mikegriffin.ie/blog/20110114-cropped-png-and-jpg-graphs-when-using-scruffy/
 Redirect 301 /tags http://mikegriffin.ie/blog/
