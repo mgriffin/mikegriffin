@@ -97,6 +97,11 @@ module Jekyll
           next
         end
 
+        # Ignore .htaccess and 404.html
+        if path=~/(.htaccess|404.html)$/
+          next
+        end
+
         # Remove the trailing 'index.html' if there is one, and just output the folder name.
         if path=~/\/index.html$/
             path = path[0..-11]
