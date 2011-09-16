@@ -176,6 +176,14 @@ ol.archive a {
 }
 /* end of general */
 
+/* for phones and tablets */
+@media screen and (max-device-width: 480px) {
+  #header, #section {
+    width: 400px;
+  }
+}
+/* end of for phones and tablets */
+
 /* syntax highlighting */
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
