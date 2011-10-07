@@ -2,4 +2,11 @@
 layout: layout
 title: Error
 ---
-<p>Uh oh</p>
+<h2>Uh oh</h2>
+<p>I can't find the page you are looking for. You should probably go to
+<a href="/blog/">archive page</a> and see if anything there tickles your
+fancy.</p>
+
+<script type="text/javascript">
+  _gaq.push(['_trackEvent', 'Error', '404', 'page: ' + document.location.pathname + document.location.search + ' ref: ' + document.referrer ]);
+</script>
