@@ -79,4 +79,4 @@ Try these three colour schemes for presentations.
 </table>
 [fast fall](http://www.colourlovers.com/palette/152215/fast_fall)
 
-All from [Colour Lovers](colourlovers.com)
+All from [Colour Lovers](http://www.colourlovers.com)
