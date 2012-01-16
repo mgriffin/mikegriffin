@@ -15,8 +15,8 @@ I would like some of the following:
  * [Innov-8 Road-X 233 shoes](http://www.wiggle.co.uk/inov-8-road-x-233-shoes/) (size 9)
  * [ITunes gift voucher](http://www.apple.com/itunes/gifts/)
  * [Greenspot 12 Year-Old Pure Pot Still](http://www.celticwhiskeyshop.com/Greenspot_12_Year_Old_Pure_Pot_Still-z-product-product-85-context-promotionalgroup-page-1.htm)
- * [White Tea Shaving Cream](http://www.eshave.com/shaving-cream-white-tea)
- * [Assorted travel kit](http://www.eshave.com/mini-kit-assorted)
+ * [White Tea Shaving Cream](http://www.executive-shaving.co.uk/shaving/eshave-shaving-cream/white-tea-shaving-cream.php) updated link
+ * [Assorted travel kit](http://www.executive-shaving.co.uk/shaving/gift-sets/eshave-mini-kit.php) updated link
  * and a surprise
 
 <img style="float: right" src="/images/christmaslist/rudolph.png">
