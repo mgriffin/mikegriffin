@@ -43,6 +43,7 @@ task :post do
     post.puts "categories: "
     post.puts "---"
   end
+  system("vim #{filename}")
 end
 
 desc "Make thumbnails for all posts"
