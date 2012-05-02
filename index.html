@@ -1,32 +1,18 @@
 ---
 layout: layout
-title: mikegriffin.ie
+title: Mike Griffin
 ---
 
-<p id="breadcrumb">Home</p>
-<div class="post">
-  <div id="post">
-    <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
-    <p class="date">{{ site.posts.first.date | date: '%d %B %Y' }}</p>
-    {{ site.posts.first.content | postmorefilter: site.posts.first.url }}
-  </div>
-</div>
+<h2>Hi, I'm Mike and I'm a programmer, fixer and general IT guy.</h2>
+<p>I'm currently working with the National Museum of Ireland in Collins Barracks. I 
+help to look after the IT infrastructure for four public sites and a number of other
+offices. 
+<p>Before this I worked with a company called BlueCarrot which did PHP
+development and hosting. We worked on a very large web based system for the
+GAA.
 
-<h2>Recent Posts</h2>
-
-{% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
-<h3 class="archive_year">{{ post_year1 }}</h3>
-<ol class="archive">
-  {% for post in site.posts offset:1 limit:5 %}
-  {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if post_year1 != post_year2 %}
-    {% assign post_year1 = post_year2 %}
-    </ol>
-    <h3 class="archive_year">{{ post_year1 }}</h3>
-    <ol class="archive">
-  {% endif %}
-  <li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time>
-  <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ol>
-<p><a href="{{ site.url }}/blog">Older posts &raquo;</a>
+<h3>Skills</h3>
+<p>I mainly use PHP, and in particular the CakePHP framework. With these skills
+I have been exposed to HTML, CSS and Javascript. I have also made use of Ruby
+with Ruby on Rails and Sinatra.</p>
+<p>I have worked with MySQL, MSSQL and SQLite databases.</p>

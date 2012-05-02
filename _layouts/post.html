@@ -2,14 +2,11 @@
 layout: layout
 ---
 
-<p id="breadcrumb"><a href="{{ site.url }}">Home</a> &raquo; <a href="{{ site.url }}/blog">Blog</a> &raquo; {{ page.title }}</p>
 <div class="post">
   <div id="post">
     <h2>{{ page.title }}</h2>
     <p class="date">{{ page.date | date: '%d %B %Y' }}</p>
     {{ content }}
-<!-- Place this tag where you want the +1 button to render -->
-<g:plusone annotation="none"></g:plusone>
 
 <!-- Place this render call where appropriate -->
 <script type="text/javascript">

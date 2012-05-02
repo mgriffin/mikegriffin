@@ -1,25 +1,26 @@
 <!DOCTYPE HTML>
-
-<html>
+<html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="author" content="Mike Griffin" />
     <meta name="viewport" content="width=device-width">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="{{ site.url }}/css/pygments/tango.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/mg.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/pygments/tango.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div id="header">
-      <h1><a href="{{ site.url }}">mikegriffin.ie</a></h1>
-      <ul id="links">
-        <li><a href="{{ site.url }}/blog">archive</a></li>
-        <li><a href="{{ site.url }}/about_me">about me</a></li>
-        <li><a href="{{ site.url }}/books">books i've read</a></li>
-      </ul>
-    </div>
-    <div id="section">
-      {{ content }}
+    <div class="container">
+      <div id="header">
+        <a id="header_name" href="/">Mike Griffin</a>
+        <ul id="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        {{ content }}
+      </div>
     </div>
     <script>
       var _gaq=[['_setAccount','UA-3683943-14'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
