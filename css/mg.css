@@ -13,6 +13,12 @@ a:hover {
   color: #d60;
   text-decoration: underline;
 }
+img {
+  -moz-box-sizing: border-box;
+  border: 0.5em solid white;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
 #header {
   height: 60px;
   border-bottom: 1px solid #444;
