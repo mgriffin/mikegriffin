@@ -11,7 +11,7 @@ course of work and life in general. It's likely to be a rag tag bunch of posts
 with no discernable pattern.
 
 If you're so inclined, you can see the source that powers all this at
-[GitHub](http://www.github.com/mgriffin/mg). Feel free to fork it or
+[GitHub](https://github.com/mgriffin/mikegriffin). Feel free to fork it or
 watch it and see how it develops over time. At the moment it's a very simple
 blogging engine but I have plans, oh yes I do!
 
