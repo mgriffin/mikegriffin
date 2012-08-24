@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Mike Griffin" />
+    <meta name="viewport" content="width=device-width">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/mg.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/galleriffic-2.css" type="text/css" media="screen">
+
+    <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.galleriffic.js"></script>
+    <script type="text/javascript" src="/js/jquery.opacityrollover.js"></script>
+    <script type="text/javascript" src="/js/galleriffic.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <a id="header_name" href="/">Mike Griffin</a>
+        <ul id="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+    <script>
+      var _gaq=[['_setAccount','UA-3683943-14'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
