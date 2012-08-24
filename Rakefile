@@ -28,7 +28,11 @@ task :post do
   require './_plugins/titlecase.rb'
   title = ask("Title: ", false)
   title = "New Post" if title.empty?
-  mkdir_p "images/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}" if ask("Do you have images?", ['y', 'n']) == 'y'
+  images = ask("Do you have images?", ['y', 'n'])
+  if images == 'y' 
+    img_dir = "images/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}"
+    mkdir_p img_dir
+  end
   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -42,6 +46,7 @@ task :post do
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "---"
+    post.puts "[![]({{ site.url}}//images/#{img_dir}/thumbs/NAME.jpg)]({{ site.url }}//images/#{img_dir}/NAME.jpg)" if images == 'y'
   end
   system("vim #{filename}")
 end
