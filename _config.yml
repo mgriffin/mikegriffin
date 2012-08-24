@@ -1,4 +1,4 @@
-exclude: ['Rakefile', 'README.md', '_drafts', 'Gemfile', 'Gemfile.lock']
+exclude: ['Rakefile', 'README.md', '_drafts', 'Gemfile', 'Gemfile.lock', 'test']
 pygments: true
 url: http://mikegriffin.ie
 markdown: rdiscount
