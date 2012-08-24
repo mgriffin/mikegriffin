@@ -1,6 +1,10 @@
 ---
 layout: layout_with_javascript
 ---
+<div id="post">
+  <h2>{{ page.title }}</h2>
+  <p class="date">{{ page.date | date: '%d %B %Y' }}</p>
+</div>
 <div id="gallery" class="content" style="display: block;">
   <div id="controls" class="controls"></div>
   <div class="slideshow-container">
