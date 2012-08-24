@@ -28,7 +28,14 @@ task :post do
   require './_plugins/titlecase.rb'
   title = ask("Title: ", false)
   title = "New Post" if title.empty?
-  images = ask("Do you have images?", ['y', 'n'])
+  gallery = ask("Is this a photo gallery?", ['y', 'n'])
+  if gallery == 'y'
+    type = 'gallery'
+    images = 'y'
+  else
+    type = 'post'
+    images = ask("Do you have images?", ['y', 'n'])
+  end
   if images == 'y' 
     img_dir = "images/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}"
     mkdir_p img_dir
@@ -40,13 +47,14 @@ task :post do
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post"
+    post.puts "layout: #{type}"
     post.puts "title: \"#{title.gsub(/&/,'&amp;').titlecase}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "---"
-    post.puts "[![]({{ site.url}}//images/#{img_dir}/thumbs/NAME.jpg)]({{ site.url }}//images/#{img_dir}/NAME.jpg)" if images == 'y'
+    post.puts "[![]({{ site.url}}//images/#{img_dir}/thumbs/NAME.jpg)]({{ site.url }}//images/#{img_dir}/NAME.jpg)" if gallery == 'n'
+    post.puts "{% photo_set #{img_dir} %}" if gallery == 'y'
   end
   system("vim #{filename}")
 end
