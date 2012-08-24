@@ -65,6 +65,24 @@ task :pics do
   end
 end
 
+namespace :gallery do
+  desc "Make square thumbnails for the gallery"
+  task :thumbs do
+    dir = ask("Which gallery? ", false)
+    Dir.chdir("images/#{dir}") do
+      FileUtils.mkdir_p('thumbs') unless File.directory?('thumbs')
+      Dir.glob('*.jpg') do |image|
+        dest = File.join('thumbs', image)
+        unless File.exists?(dest)
+          system("convert -format jpg -quality 75 -resize \"640x480>\" -strip #{image} #{dest}")
+          system("convert #{image} -thumbnail x200 -resize '200x<' -resize 50% -gravity center -crop 100x100+0+0 +repage -format jpg -quality 91 #{dest}")
+          puts "#{image} converted"
+        end
+      end
+    end
+  end
+end
+
 def ask(message, valid_options)
   if valid_options
     answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
