@@ -24,12 +24,12 @@ name in it, so it set it as a blank string.
 
 To fix it, I edited line 2461 of `zp-core\admin_functions.php` from:
 
-{%highlight php startinline %}
+{% highlight php startinline %}
 echo '<input name="'.$name.'_'.$locale.'"'.$edit.' type="text" value="'.html_encode($dbstring).'" size="'.$wide.'" />';
 {% endhighlight %}
 
 to:
 
-{%highlight php startinline %}
+{% highlight php startinline %}
 echo '<input name="'.$name.'"'.$edit.' type="text" value="'.html_encode($dbstring).'" size="'.$wide.'" />';
 {% endhighlight %}

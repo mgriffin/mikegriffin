@@ -11,7 +11,7 @@ I always forget how to do it. This is how.
 
 In your `~/.gemrc` file, add the following line:
 
-{%highlight ruby %}
+{% highlight ruby %}
 gem: --no-ri --no-rdoc
 {% endhighlight %}
 
