@@ -9,9 +9,13 @@ module Jekyll
     end
 
     def render(context)
-      <<-EOF
-      #{photos.collect{|photo| render_thumbnail(photo)}}
-      EOF
+      html = ""
+
+      photos.each do |photo|
+        html << render_thumbnail(photo)
+      end
+
+      return html
     end
 
     def render_thumbnail(photo)
