@@ -12,7 +12,7 @@ Sometimes I manage to find someone who is every bit as bad as me, but somehow
 manages to get their complaints across in a fantastically humourous way. 
 
 One of those people has a site called 
-[Hyperbole and a Half](http://hyperboleandahalf.blogspot.com/] 
+[Hyperbole and a Half](http://hyperboleandahalf.blogspot.com/) 
 and she made a post one day about
 [the Alot](http://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything.html).
 As you can imagine, this struck a chord with lots of other people and it was
