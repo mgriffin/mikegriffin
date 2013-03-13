@@ -36,6 +36,10 @@ It has to be run from the directory that holds the files, has no error checking 
 would probably bomb out badly if it met files that don't match, but it worked for me
 and it might even work for you.
 
+<h4>EDIT - 13th March 2013</h4>
+I added in the `head` command to only leave one Date line. I was having problems with
+some mails that had a date in there for an event
+
 Here it is in all its glory.
 
 {% highlight bash %}
@@ -44,7 +48,7 @@ Here it is in all its glory.
 for i in `ls`
 do
   # Find the date field and then remove up to the first space (Date: )
-  DATE=$(grep '^Date:' $i | cut -d' ' -f1 --complement)
+  DATE=$(grep '^Date:' $i | head -1 | cut -d' ' -f1 --complement)
 
   # Create a timestamp from the date above
   STAMP=$(date --date="$DATE" +%Y%m%d%H%M)
