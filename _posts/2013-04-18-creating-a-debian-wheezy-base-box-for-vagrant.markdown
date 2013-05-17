@@ -43,7 +43,7 @@ Log in as root
 {% highlight bash %}
 apt-get install build-essentials module-assistant
 m-a prepare
-apt-get install openssh-server zerofree ruby1.9
+apt-get install openssh-server zerofree ruby1.9 sudo
 gem install chef --no-ri --no-rdoc
 mkdir /home/vagrant/.ssh
 cd /home/vagrant/.ssh
@@ -52,6 +52,14 @@ mv vagrant.pub authorized_keys
 cd -
 chmod 700 /home/vagrant/.ssh
 chown -r vagrant:vagrant /home/vagrant/.ssh
+{% endhighlight %}
+
+### Add the vagrant user to sudo
+
+Add the following to /etc/sudoers
+
+{% highlight bash %}
+vagrant    ALL = NOPASSWD: ALL
 {% endhighlight %}
 
 ### Shrink the box size
