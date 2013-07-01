@@ -41,7 +41,7 @@ After this is done, it's time to reboot the virtual machine.
 Log in as root
 
 {% highlight bash %}
-apt-get install build-essentials module-assistant
+apt-get install build-essential module-assistant
 m-a prepare
 apt-get install openssh-server zerofree ruby1.9 sudo
 gem install chef --no-ri --no-rdoc
@@ -82,7 +82,7 @@ and enter the root password. Then run zerofree to zero out any free space on the
 
 {% highlight bash %}
 mount -o remount,ro /dev/sda1
-zerofree
+zerofree /dev/sda1
 {% endhighlight %}
 
 This will chug away for a couple of minutes before returning and then you can halt the virtual machine.
