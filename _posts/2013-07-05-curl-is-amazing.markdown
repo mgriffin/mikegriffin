@@ -17,7 +17,7 @@ to stumble upon this little gem.
 cURL has the ability to increment a counter for you using a regex. So instead of a shell script,
 all I needed to do was run:
 
-{% highlight ruby %}
+{% highlight bash %}
 curl -o file#1.xml "http://your_url_here/get_me_the_xml?id=[1-10]"
 {% endhighlight %}
 
