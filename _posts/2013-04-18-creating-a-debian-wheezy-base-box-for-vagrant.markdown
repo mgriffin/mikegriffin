@@ -51,7 +51,7 @@ wget https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub
 mv vagrant.pub authorized_keys
 cd -
 chmod 700 /home/vagrant/.ssh
-chown -r vagrant:vagrant /home/vagrant/.ssh
+chown -R vagrant:vagrant /home/vagrant/.ssh
 {% endhighlight %}
 
 ### Add the vagrant user to sudo
