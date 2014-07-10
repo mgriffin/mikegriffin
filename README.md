@@ -1,4 +1,4 @@
-# Source of [mikegriffin.ie](http://mikegriffin.ie)
+# Source of [mikegriffin.ie](https://mikegriffin.ie)
 
 Created using [Jekyll](http://jekyllrb.com/) and a Rakefile. Some plugins are taken from [Octopress](http://octopress.org/)
 and inspiration for the layout is partly from [Jonathan Robson](http://jnrbsn.com/).

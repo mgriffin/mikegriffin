@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-Following on from [this post](http://mikegriffin.ie/blog/20110128-a-graphviz-user-defined-language-udl-file-for-notepad)
+Following on from [this post](https://mikegriffin.ie/blog/20110128-a-graphviz-user-defined-language-udl-file-for-notepad)
 I thought it could be useful to show the steps that I went through to go from a
 blank canvas to a full network diagram.
 
