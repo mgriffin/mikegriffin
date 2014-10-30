@@ -3,14 +3,14 @@ layout: layout
 title: Mike Griffin's Blog
 ---
 <div class="span10">
-  {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
-  <h3 class="archive_year">{{ post_year1 }}</h3>
-  <ol class="archive">
+  {% capture post_year1 %}{{ 'now' }}{% endcapture %}
     {% for post in site.posts %}
     {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% if post_year1 != post_year2 %}
-    {% assign post_year1 = post_year2 %}
+    {% if post_year1 != 'now' %}
   </ol>
+    {% endif %}
+    {% assign post_year1 = post_year2 %}
   <h3 class="archive_year">{{ post_year1 }}</h3>
   <ol class="archive">
     {% endif %}
