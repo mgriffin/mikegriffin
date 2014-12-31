@@ -5,7 +5,7 @@ category: training
 ---
 I ran with Kenenise Bekele!
 
-![](http://www.flickr.com/photos/43453103@N02/8648820816/)
+![](https://farm8.staticflickr.com/7512/16138275171_e4ced7b572_n.jpg)
 
 He was in Dublin a few weeks ago to run the Great Ireland Run. This was also the AAI National 10k Championships. It was a windy and day but dry and not too cold. Head and cross winds were the order of the day and all the hills in the second half. I got through the first half in 17 minutes and finished in 35:04. I thought I was on for 34:xx until I crossed the line. I blame the oxygen deprivation from sprinting the last 400m!
 
