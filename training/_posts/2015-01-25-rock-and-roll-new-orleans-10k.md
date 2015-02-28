@@ -9,11 +9,15 @@ I didn't have a lot of time to spare to collect my number after arriving in New 
 I didn't think there would be any chanve to register on the day as the race was starting at 7am, so I went out for a few drinks with the guys from work.
 Sometime after midnight, I got a message saying I could register before the race, not what you want to hear with about 6 hours to go before you have to get up.
 
+![](/images/2015-02-25-nola-10k/there-i-am.jpg)
+
 Just before 6am, I got up and went to register, I had paid for it and I was awake, it seemed like the right thing to do.
 Registration was quick and easy and by 6:30, I was off warming up after handing over my spare clothes for the end of the race.
 After some long strides and a few chats to other runners, I went to the start area.
 As usual, I spent some time looking around, checking out the other runners, sussing out the competition.
 I was a little surprised, it looked like there were only a small number of "proper" runners.
+
+![](/images/2015-02-25-nola-10k/national-anthem.jpg)
 
 Just before the race, the national anthem was sung and then we were off.
 After about 200m, I was in the leading bunch of three, but 100m later, I was talking to the only other person still in the group.
