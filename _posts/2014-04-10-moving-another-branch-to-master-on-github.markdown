@@ -41,7 +41,7 @@ git push origin master:refs/heads/master
  * Push up the legacy code to Github
 
 {% highlight bash %}
-git push origin legacy:refs/heads/master
+git push origin legacy:refs/heads/legacy
 {% endhighlight %}
 
  * Delete the old branch on Github
