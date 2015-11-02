@@ -5,6 +5,7 @@ date: 2015-11-02 16:00
 comments: true
 categories: 
 ---
+![Me, playing canoe polo](/images/2015-11-02-dont-be-that-guy/mike.jpg "me, playing canoe polo")
 
 I've played [canoe polo](https://youtu.be/VMt5V4mq6f4?t=202) for a long time, longer than I care to admit to myself.
 Not long after I started playing in the highest national division, I came up against a guy that had once played at the highest level.
