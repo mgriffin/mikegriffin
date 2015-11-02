@@ -6,10 +6,10 @@ comments: true
 categories: 
 ---
 
-I've played canoe polo for a long time, longer than I care to admit to myself.
+I've played [canoe polo](https://youtu.be/VMt5V4mq6f4?t=202) for a long time, longer than I care to admit to myself.
 Not long after I started playing in the highest national division, I came up against a guy that had once played at the highest level.
 The only problem was that he hadn't played recently and his brain was moving faster than his body.
-To compensate, or maybe because he was that little bit slower to react, he played dirty, cynical things like obstructing and chopping.
+To compensate, or maybe because he was that little bit slower to react, he played dirty, cynical things like [obstructing and chopping](https://youtu.be/cBSpEffaIuk?t=39).
 I used to hate playing against him because you finished up the game with cut fingers and sore arms.
 
 He used to give out to referees that he thought were picking on him too.
