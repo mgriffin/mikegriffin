@@ -1,6 +1,3 @@
 exclude: ['Rakefile', 'README.md', '_drafts', 'Gemfile', 'Gemfile.lock', 'test']
-pygments: true
 url: https://mikegriffin.ie
-markdown: rdiscount
 permalink: /blog/:year:month:day-:title
-baseurl: https://mikegriffin.ie/
