@@ -24,11 +24,13 @@
         {{ content }}
       </div>
     </div>
+    {% if jekyll.environment == "production" %}
     <script>
       var _gaq=[['_setAccount','UA-3683943-14'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+    {% endif %}
   </body>
 </html>
