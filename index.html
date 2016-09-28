@@ -4,33 +4,16 @@ title: Mike Griffin
 ---
 
 <div class="span7">
-  <h1 class="thin">Hi, I'm Mike.</h1>
-  <h2 class="thin">I'm a programmer, fixer upper and general IT guy.</h2>
-  <p>I enjoy tinkering with things, looking under the covers to see how they work,
-  and then using that knowledge to improve them.</p>
-  <p>I have worked in the public and private sector in Ireland doing support,
-  system administration and programming.</p>
-
-  <h3>Skills</h3>
-  <p>I have used PHP and Ruby to make intranet and web facing sites. Along with
-  these, I used HTML, CSS, Javascript, bash, perl, sed and awk. I have used
-  cakePHP quite a lot and also dabbled with Sinatra for some projects.</p>
-  <p>I use git for all my version control needs now but I did play around with
-  SVN and Mercurial in the past.</p>
-  <p>I have used a number of SQL variants including MySQL, PostgreSQL and MSSQL
-  but I haven't had to dig too deep into their performance.</p>
-  <p>I am comfortable working in Linux, Windows and MacOSX environments having
-  supported all of them on desktop and server platforms.</p>
-  <p>I also have experience administering Cisco networking devices from
-  switches to routers to PIX firewalls.</p>
-
-  <h3>Contact me</h3>
-  <p>You can <a href="mailto:mike@mikegriffin.ie">email me</a>, follow me on
-  <a href="http://twitter.com/griffinmike">twitter</a> or on
-  <a href="http://plus.google.com/117199301289506735696">google+</a></p>
-  <p>I have a <a href="https://github.com/mgriffin">Github profile</a> too.</p>
-
+  <h3>Hi, I'm Mike.</h3>
+  <p>Here are some things I wrote.
 </div>
-<div class="span5">
-  <img src="{{ site.url }}/images/headshot.png" alt="Mike Griffin" style="float:right">
-</div>
+
+{% for post in site.posts limit:3 %}
+<h4><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time>
+<a href="{{ post.url }}">{{ post.title }}</a></h4>
+<p>{{ post.excerpt }}</p>
+<a href="{{ post.url }}">Read more...</a><br>
+<hr>
+{% endfor %}
+
+<p>There's more in <a href="blog/">the archives</a>
