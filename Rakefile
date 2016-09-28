@@ -13,7 +13,7 @@ desc "Generate jekyll site"
 task :generate do
   puts "## Generating Site with Jekyll"
   FileUtils.rm_rf("_site")
-  system "jekyll build"
+  system "JEKYLL_ENV=production jekyll build"
 end
 
 desc "Deploy to local site"
