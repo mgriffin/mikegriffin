@@ -1,16 +1,20 @@
 html {
   overflow-y: scroll;
+  background-color: #f7efd4;
+}
+body {
+  color: #472c25;
 }
 p {
   font-size: 16px;
   line-height: 22px;
 }
 a {
-  color: #f60;
+  color: #eb712f;
   text-decoration: none;
 }
 a:hover {
-  color: #d60;
+  color: #91371b;
   text-decoration: underline;
 }
 img {
@@ -21,16 +25,16 @@ img {
 }
 #header {
   height: 60px;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #d4c2b2;
   margin-bottom: 20px;
   padding: 0 20px;
 }
 #header #links a {
-  color: #f60;
+  color: #eb712f;
   font-size: 16px;
 }
 #header #links a:hover {
-  color: #d60;
+  color: #91371b;
 }
 #header ul {
   padding: 32px 0;
@@ -42,7 +46,7 @@ img {
   padding-right: 20px;
 }
 #header_name {
-  color: #444;
+  color: #472c25;
   font-size: 48px;
   float: right;
   line-height: 60px;
@@ -59,7 +63,7 @@ a#header_name:hover {
 h3.archive_year {
   margin: 0;
   padding: 5px 0;
-  color: #999;
+  color: #472c25;
 }
 ol.archive {
   list-style-type: none;
@@ -72,11 +76,11 @@ ol.archive > li {
   padding: 5px 2px;
 }
 .date {
-  color: #999;
+  color: #d4c2b2;
   font-size: 13px;
 }
 time {
-  color: #999;
+  color: #d4c2b2;
   font-size: 13px;
   display: inline-block;
 }
