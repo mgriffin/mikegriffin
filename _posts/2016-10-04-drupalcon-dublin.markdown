@@ -54,7 +54,8 @@ work that went in to http://www.museum.ie too.
 
 I've been looking forward to seeing Lorna talk in person for a long time. This
 was a very approachable introduction to HTTP and APIs. Also included a run
-through some HTTP clients and how Lorna tests things.
+through some HTTP clients and how Lorna tests things. I also picked up a signed
+copy of "PHP Web Services" before the talk.
 
 ##### Imposter Syndrome and Individual Competence
 
