@@ -23,7 +23,7 @@ img {
 }
 #header {
   height: 60px;
-  border-bottom: 1px solid #d4c2b2;
+  border-bottom: 1px solid #a49282;
   margin-bottom: 20px;
   padding: 0 20px;
 }
@@ -74,11 +74,11 @@ ol.archive > li {
   padding: 5px 2px;
 }
 .date {
-  color: #d4c2b2;
+  color: #a49282;
   font-size: 13px;
 }
 time {
-  color: #d4c2b2;
+  color: #a49282;
   font-size: 13px;
   display: inline-block;
 }
@@ -98,4 +98,27 @@ a#forkme_banner:hover {
 }
 .fork-and-edit {
   padding-top: 25px;
+}
+.search-input {
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: .25em;
+  font-family: inherit;
+  font-size: 1.25em;
+  margin: 2em auto 1em;
+  padding: .5em;
+  width: 100%;
+}
+
+.result {
+  margin-bottom: 2em;
+
+  p { margin-bottom: 0; }
+}
+
+.result-img {
+  height: 150px;
+  margin: 0 2em 0 0;
+  object-fit: cover;
+  width: 150px;
 }
