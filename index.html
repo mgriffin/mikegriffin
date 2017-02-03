@@ -10,7 +10,7 @@ title: Mike Griffin
 
 {% for post in site.posts limit:6 %}
 <h4>
-<a href="{{ post.url }}">{{ post.title }}</a>
+  <a href="{{ post.url }}">{{ post.title }}</a>
   <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b %Y' }}</time>
 </h4>
 <p>{{ post.excerpt }}</p>
