@@ -4,7 +4,6 @@ title: Mike Griffin's Blog
 ---
 <div class="span10">
   {% for post in site.posts %}
-  {% unless post.categories contains 'training' %}
   {% assign post_year1 = post.date | date: '%Y' %}
   {% if post_year1 != post_year2 %}
   <h3 class="archive_year">{{ post_year1 }}</h3>
@@ -12,6 +11,5 @@ title: Mike Griffin's Blog
   {% endif %}
   <h5><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time>
   <a href="{{ post.url }}">{{ post.title }}</a></h5>
-  {% endunless %}
   {% endfor %}
 </div>
