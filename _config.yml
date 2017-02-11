@@ -1,5 +1,7 @@
 exclude: ['Rakefile', 'README.md', '_drafts', 'Gemfile', 'Gemfile.lock', 'test']
 url: https://mikegriffin.ie
 permalink: /blog/:year:month:day-:title
+theme: jekyll-theme-slate
+title: Mike Griffin
 gems:
   - jekyll-sitemap

@@ -1,15 +1,11 @@
 ---
-layout: layout
+layout: default
 ---
 
-<div class="span10">
-  <div id="post">
-    <h2>{{ page.title }}</h2>
-    <p class="date">{{ page.date | date: '%d %B %Y' }}</p>
-    {{ content }}
+<h2>{{ page.title }}</h2>
+<p class="date">{{ page.date | date: '%d %B %Y' }}</p>
+{{ content }}
 
-    <p class="fork-and-edit">
-      If you find a typo, please <a href="http://github.com/mgriffin/mikegriffin/edit/master/{{ page.path }}">fork and edit this post</a>. Thank you so much!
-    </p>
-  </div>
-</div>
+<p class="fork-and-edit">
+  If you find a typo, please <a href="http://github.com/mgriffin/mikegriffin/edit/master/{{ page.path }}">fork and edit this post</a>.
+</p>

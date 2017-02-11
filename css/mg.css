@@ -1,100 +1,11 @@
-html {
-  overflow-y: scroll;
-  background-color: #f7efd4;
-}
-body {
-  color: #472c25;
-}
-p {
-  font-size: 16px;
-  line-height: 22px;
-}
-a {
-  color: #91371b;
-}
-a:hover {
-  color: #eb712f;
-}
-img {
-  -moz-box-sizing: border-box;
-  border: 0.5em solid white;
-  border-radius: 0.3em 0.3em 0.3em 0.3em;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-}
-#header {
-  height: 60px;
-  border-bottom: 1px solid #a49282;
-  margin-bottom: 20px;
-  padding: 0 20px;
-}
-#header #links a {
-  color: #91371b;
-  font-size: 16px;
-}
-#header #links a:hover {
-  color: #eb712f;
-}
-#header ul {
-  padding: 32px 0;
+header ul {
+  padding-top: 32px;
   margin: 0;
 }
-#header li {
+header li {
   display: inline;
   list-style-type: none;
   padding-right: 20px;
-}
-#header_name {
-  color: #472c25;
-  font-size: 48px;
-  float: right;
-  line-height: 60px;
-}
-a#header_name:hover {
-  text-decoration: none;
-}
-#content {
-  padding: 0 20px;
-}
-.thin {
-  font-weight: normal;
-}
-h3.archive_year {
-  margin: 0;
-  padding: 5px 0;
-  color: #472c25;
-}
-ol.archive {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  clear: both;
-}
-ol.archive > li {
-  margin: 0 0 0 60px;
-  padding: 5px 2px;
-}
-.date {
-  color: #a49282;
-  font-size: 13px;
-}
-time {
-  color: #a49282;
-  font-size: 13px;
-  display: inline-block;
-}
-a#forkme_banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 138px;
-  height: 138px;
-  display: block;
-  background: transparent url(../images/fork-sprite.png) 0 0 no-repeat;
-  text-indent: -9000px;
-  z-index: 3;
-}
-a#forkme_banner:hover {
-  background-position: 0 -138px;
 }
 .fork-and-edit {
   padding-top: 25px;
