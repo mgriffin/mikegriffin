@@ -99,7 +99,7 @@ I'm not sure I'd go to another Drupal specific conference, but there's enough
 going on in PHP to drag me back and keep me interested. It's not at all the
 same as it was back in PHP3 and 4!
 
-![some stickers to hand out](/images/2016-10-04-drupalcon-dublin/stickers2.jpg)
+![some stickers to hand out](/images/2016-10-04-drupalcon-dublin/stickers.jpg)
 
 I got rid of a lot of my stash of stickers too, if you missed out on them or
 want any, <a href="mailto:mike@mikegriffin.ie?subject=I'd like some stickers,
