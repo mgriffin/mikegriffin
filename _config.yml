@@ -4,4 +4,5 @@ permalink: /blog/:year:month:day-:title
 theme: jekyll-theme-slate
 title: Mike Griffin
 gems:
+  - jekyll-redirect-from
   - jekyll-sitemap

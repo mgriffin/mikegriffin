@@ -198,6 +198,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-redirect-from
   rake
   stringex
 
