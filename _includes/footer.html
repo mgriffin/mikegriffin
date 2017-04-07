@@ -1,11 +1,11 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
     <p>
-      {% include footer_content.html %}
+    {% assign feed_path = "/feed.xml" %}
+    {% if site.feed and site.feed.path %}
+    {% assign feed_path = site.feed.path %}
+    {% endif %}
+    &copy; {{ site.author }} - Using the <a href="https://github.com/yous/whiteglass">whiteglass</a> theme - Subscribe via <a href="{{ feed_path | absolute_url }}">RSS</a>
     </p>
-
   </div>
-
 </footer>
