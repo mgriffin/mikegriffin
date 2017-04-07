@@ -1,7 +1,6 @@
 title: Mike Griffin
 author: Mike Griffin
 url: "https://mikegriffin.ie"
-baseurl: "/"
 permalink: /blog/:year:month:day-:title
 exclude: 
   - Rakefile
