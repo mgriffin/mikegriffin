@@ -10,6 +10,8 @@ exclude:
   - Gemfile.lock
   - test
 
+google_analytics: UA-3683943-14
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
