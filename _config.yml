@@ -1,8 +1,15 @@
-exclude: ['Rakefile', 'README.md', '_drafts', 'Gemfile', 'Gemfile.lock', 'test']
-url: https://mikegriffin.ie
-permalink: /blog/:year:month:day-:title
-theme: jekyll-theme-slate
 title: Mike Griffin
+url: "https://mikegriffin.ie"
+baseurl: "/"
+permalink: /blog/:year:month:day-:title
+exclude: 
+  - Rakefile
+  - README.md
+  - _drafts
+  - Gemfile
+  - Gemfile.lock
+  - test
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
