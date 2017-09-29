@@ -2,6 +2,7 @@ title: Mike Griffin
 author: Mike Griffin
 url: "https://mikegriffin.ie"
 permalink: /blog/:year:month:day-:title
+repository: "mgriffin/mikegriffin"
 exclude: 
   - Rakefile
   - README.md
