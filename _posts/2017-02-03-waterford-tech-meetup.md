@@ -14,7 +14,7 @@ Now it's a static site hosted on GitHub Pages and using AWS S3 to store the phot
 I talked about how to use Dropbox and webhooks to automatically update the GitHub Pages site and upload the photos to S3.
 At the moment it's not very sophisticated, it lacks a lot of checks and tests to ensure that things aren't overwritten, but as it's backed by a Git repository, I figure that I'll always be able to manually fix things.
 
-My Dad's site is [https://www.photosofblacklion.net]([https://www.photosofblacklion.net).
+My Dad's site is [https://www.photosofblacklion.net](https://www.photosofblacklion.net).
 Go check it out and take a look at the relevant repositories at [https://github.com/PhotosOfBlacklion](https://github.com/PhotosOfBlacklion).
 
 Pull Requests and questions welcome!
