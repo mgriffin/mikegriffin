@@ -16,6 +16,15 @@ body {
 h1,h2,h3 {
   line-height:1.2
 }
+a {
+  color: #07a;
+}
+a:visited {
+  color: #941352;
+}
+h1 > a {
+  text-decoration: none;
+}
 pre {
   background: #f4f4f4;
   border: 1px solid #ddd;
@@ -32,12 +41,16 @@ pre {
   display: block;
   word-wrap: break-word;
 }
+img {
+max-width: 100%;
+height: auto;
+}
     </style>
     <link rel="stylesheet" href="/assets/css/blueimp-gallery.min.css">
   </head>
   <body>
     <header>
-      <h1>Mike Griffin</h1>
+      <h1><a href="/">Mike Griffin</a></h1>
     </header>
     {{ content }}
   </body>
