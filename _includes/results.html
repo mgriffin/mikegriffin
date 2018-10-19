@@ -1,0 +1,48 @@
+<table>
+  <tr>
+    <th>Place</th>
+    <th>Name</th>
+    {% if include.results[0].club %}
+    <th>Club</th>
+    {% endif %}
+    {% if include.results[0].county %}
+    <th>County</th>
+    {% endif %}
+    {% if include.results[0].category %}
+    <th>Category</th>
+    {% endif %}
+    {% if include.results[0].finish_time %}
+    <th>Clock Time</th>
+    {% endif %}
+    {% if include.results[0].actual_time %}
+    <th>Net Time</th>
+    {% endif %}
+    {% if include.results[0].time %}
+    <th>Time</th>
+    {% endif %}
+  </tr>
+  {% for result in include.results %}
+  <tr>
+    <td>{{ result.place }}</td>
+    <td>{{ result.name }}</td>
+    {% if result.club %}
+    <td>{{ result.club }}</td>
+    {% endif %}
+    {% if result.county %}
+    <td>{{ result.county }}</td>
+    {% endif %}
+    {% if result.category %}
+    <td>{{ result.category }}</td>
+    {% endif %}
+    {% if result.finish_time %}
+    <td>{{ result.finish_time }}</td>
+    {% endif %}
+    {% if result.actual_time %}
+    <td>{{ result.actual_time }}</td>
+    {% endif %}
+    {% if result.time %}
+    <td>{{ result.time }}</td>
+    {% endif %}
+  </tr>
+  {% endfor %}
+</table>
