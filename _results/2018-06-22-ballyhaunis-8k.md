@@ -13,7 +13,7 @@ results:
   - place: 2
     name: Mike Griffin
     category: Male Senior
-    club: 
+    club: NA
     time: 29m28s
   - place: 3
     name: Seán Burke
@@ -23,12 +23,12 @@ results:
   - place: 4
     name: Tom Prendergast
     category: Male Senior
-    club: 
+    club: NA
     time: 29m58s
   - place: 5
     name: Kenneth Kennedy
     category: Male Senior
-    club: 
+    club: NA
     time: 30m22s
   - place: 6
     name: Brendan Hession
@@ -53,7 +53,7 @@ results:
   - place: 10
     name: Eamonn Joyce
     category: Male Senior
-    club: 
+    club: NA
     time: 31m32s
   - place: 11
     name: Darren Brewer
@@ -78,12 +78,12 @@ results:
   - place: 15
     name: Jason Fahy
     category: Male Senior
-    club: 
+    club: NA
     time: 34m17s
   - place: 16
     name: John Cribbin
     category: Male 55+
-    club: 
+    club: NA
     time: 34m21s
   - place: 17
     name: Domnic Regan
@@ -153,17 +153,17 @@ results:
   - place: 30
     name: Murina Walsh
     category: Female Senior
-    club: 
+    club: NA
     time: 39m11s
   - place: 31
     name: Fergal Walsh
     category: Male Senior
-    club: 
+    club: NA
     time: 39m11s
   - place: 32
     name: Michael D. McAndrew
     category: Male Senior
-    club: 
+    club: NA
     time: 39m16s
   - place: 33
     name: Edel Feeney
@@ -178,32 +178,32 @@ results:
   - place: 35
     name: Hamid Heidary
     category: Male Senior
-    club: 
+    club: NA
     time: 39m58s
   - place: 36
     name: Katy McEllin
     category: Female Senior
-    club: 
+    club: NA
     time: 40m04s
   - place: 37
     name: Mark McEllin
     category: Male Senior
-    club: 
+    club: NA
     time: 40m05s
   - place: 38
     name: Aidan Dermody
     category: Male Senior
-    club: 
+    club: NA
     time: 40m24s
   - place: 39
     name: Patrick Breheny
     category: Male Senior
-    club: 
+    club: NA
     time: 40m38s
   - place: 40
     name: Mary-Teresa Cooney
     category: Female Senior
-    club: 
+    club: NA
     time: 40m42s
   - place: 41
     name: Emer Carty
@@ -213,17 +213,17 @@ results:
   - place: 42
     name: Mark Padden
     category: Male Senior
-    club: 
+    club: NA
     time: 41m16s
   - place: 43
     name: Mark Curley
     category: Male Senior
-    club: 
+    club: NA
     time: 41m18s
   - place: 44
     name: Robert Lisy
     category: Male u19
-    club: 
+    club: NA
     time: 42m19s
   - place: 45
     name: Joe OGara
@@ -238,7 +238,7 @@ results:
   - place: 47
     name: Rosie Cosgrove
     category: Female Senior
-    club: 
+    club: NA
     time: 43m17s
   - place: 48
     name: Michael Courell
@@ -248,22 +248,22 @@ results:
   - place: 49
     name: Tom Mohlis
     category: Male u19
-    club: 
+    club: NA
     time: 46m13s
   - place: 50
     name:  Prince
     category: Male u19
-    club: 
+    club: NA
     time: 46m33s
   - place: 51
     name: Martin Keane
     category: Male Senior
-    club: 
+    club: NA
     time: 46m39s
   - place: 52
     name: Breege Cribbin
     category: Female 50+
-    club: 
+    club: NA
     time: 47m06s
   - place: 53
     name: Justine McCoy
@@ -273,7 +273,7 @@ results:
   - place: 54
     name: Elena Feeney
     category: Female Senior
-    club: 
+    club: NA
     time: 48m28s
   - place: 55
     name: Catherina Diskin Hunt
@@ -298,7 +298,7 @@ results:
   - place: 59
     name: Kathleen Walsh
     category: Female 50+
-    club: 
+    club: NA
     time: 51m40s
   - place: 60
     name: Patricia Waldron
@@ -308,56 +308,56 @@ results:
   - place: 61
     name: Ann OToole
     category: Female 50+
-    club: 
+    club: NA
     time: 54m04s
   - place: 62
     name: Alyssa Abiose
     category: Female u19
-    club: 
+    club: NA
     time: 54m05s
   - place: 63
     name: Hazel Nolan
     category: Female u19
-    club: 
+    club: NA
     time: 1h09m30s
   - place: 64
     name: Adela Illichova
     category: Female u19
-    club: 
+    club: NA
     time: 1h10m47s
   - place: 65
     name: Tracy Cunnane
     category: Female Senior
-    club: 
+    club: NA
     time: 1h11m28s
   - place: 66
     name: Elmarie Roos
     category: Female Senior
-    club: 
+    club: NA
     time: 1h16m18s
   - place: 67
     name: Hamad Althobhaney
     category: Male Senior
-    club: 
+    club: NA
     time: 1h20m14s
   - place: 68
     name: Elena Policante
     category: Female Senior
-    club: 
+    club: NA
     time: 1h20m15s
   - place: 69
     name: Bianca Danfere
     category: Female Senior
-    club: 
+    club: NA
     time: 1h23m23s
   - place: 70
     name: Madina Zamir
     category: Female u19
-    club: 
+    club: NA
     time: 1h30m05s
   - place: 71
     name: Joy Abiose
     category: Female u19
-    club: 
+    club: NA
     time: 1h30m07s
 ---
