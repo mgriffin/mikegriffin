@@ -1,0 +1,15 @@
+---
+layout: default
+title: Mike Griffin's Race Results
+---
+<div>
+  {% for result in site.results reversed %}
+  {% assign result_year1 = result.date | date: '%Y' %}
+  {% if result_year1 != result_year2 %}
+  <h2>{{ result_year1 }}</h2>
+  {% assign result_year2 = result.date | date: '%Y' %}
+  {% endif %}
+  <h4><time datetime="{{ result.date | date: '%Y-%m-%d' }}">{{ result.date | date: '%d %b' }}</time>
+  <a href="{{ result.url }}">{{ result.title }}</a></h4>
+  {% endfor %}
+</div>

@@ -14,3 +14,22 @@ exclude:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "results"
+    values:
+      layout: "result"
+      category: "result"
+
+collections:
+  results:
+    output: true
