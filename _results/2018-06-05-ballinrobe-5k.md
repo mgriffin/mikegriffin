@@ -1,9 +1,8 @@
 ---
-title: Ballinrobe 5k
-location: Ballinrobe
-date: 2018-06-05 20:00
-latitude: 53.625413
-longitude: -9.2280237
+title: Up and Over Challenge
+location: Lahardaun
+date: 2018-04-14 12:00
+latitude: 54.0295463
+longitude: -9.3307734
 results:
 ---
-
