@@ -18,3 +18,11 @@ client.connection_options[:ssl] = { :verify => false }
 ```
 
 I'm adding this here because I keep having to look it up and it takes me a while to find it each time.
+
+### EDIT 2019-04-25
+
+This has changed in the last while and now it needs this instead:
+
+```
+client.ssl_verify_mode = OpenSSL::SSL::VERIFY_NONE
+```
