@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Planting Treest to Offset Climate Crisis"
+title: "Planting Trees to Offset Climate Crisis"
 date: 2020-05-07 23:46
-categories: climate, trees
+categories: climate trees
 ---
 I've recently signed up to [Offset Earth](https://offset.earth) after following [Phil Sturgeon on Twitter](https://twitter.com/philsturgeon).
 He's been going on about this site for ages and I eventually signed up and now have a family account set up where we get about 40 trees planted each month.
