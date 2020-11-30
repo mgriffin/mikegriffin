@@ -9,9 +9,11 @@ exclude:
   - _drafts
   - Gemfile
   - Gemfile.lock
+  - script
   - test
+  - vendor
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
