@@ -4,7 +4,9 @@ title: "Soda Bread Recipe"
 date: 2021-05-03 14:14
 categories: 
 ---
-From the [Dunany Flour website](http://www.dunanyflour.com/index.php?option=com_content&view=article&id=63&Itemid=162)
+A recipe from the [Dunany Flour website](http://www.dunanyflour.com/index.php?option=com_content&view=article&id=63&Itemid=162)
+
+![close up of the soda bread](https://photos.mikegriffin.ie/p/2021/05/soda-bread.jpg)
 
 ### To make 1 500g (1lb) loaf you will need.
  
