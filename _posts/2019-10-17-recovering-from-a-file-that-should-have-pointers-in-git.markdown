@@ -10,7 +10,7 @@ It left it in this weird zombie state where I wasn't able to checkout the origin
 
 I kept getting this error message:
 
-```
+```bash
 $ git co [filename]
 Updated 1 path from the index
 Encountered 1 file(s) that should have been pointers, but weren't:
