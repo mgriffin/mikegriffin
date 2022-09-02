@@ -23,6 +23,6 @@ noremap <leader>v :Rag '^(?=.)' ~/Dropbox/vimwiki/<return>
 ```
 
 The first `command!` creates a command that can be called as `:Rag <search-term> <directory>` and I've used the second line to map that to `<leader>v`.
-The strange looking `'^(?=.)'` was taken from the definition of `[fzf#vim#ag](https://github.com/junegunn/fzf.vim/blob/d3b9fed9c2415a2682cb1c8604e25a351325c22b/autoload/fzf/vim.vim#L594-L604)`.
+The strange looking `'^(?=.)'` was taken from the definition of [`fzf#vim#ag`](https://github.com/junegunn/fzf.vim/blob/d3b9fed9c2415a2682cb1c8604e25a351325c22b/autoload/fzf/vim.vim#L594-L604).
 I don't fully understand it, but it allows a blank search string so that I don't have to supply anything there and it brings up the full search that I can then type into.
 Lastly, I've set the directory to search to the one where I store my vimwiki files.
