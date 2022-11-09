@@ -49,3 +49,8 @@ picture img {
 time {
   color: var(--text-light);
 }
+section {
+  border-top: 0;
+  margin: 0;
+  padding: 0;
+}

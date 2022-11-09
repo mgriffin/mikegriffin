@@ -23,15 +23,15 @@ layout: default
 </article>
 
 {% for post in site.posts limit:6 %}
+<section class="h-card">
   <h3>
-    <a href="{{ post.url }}">{{ post.title | escape }}{% if post.external-url %} &rarr;{% endif %}</a>
+    <a href="{{ post.url }}" class="u-url p-name">{{ post.title | escape }}</a>
   </h3>
-
-  <p>{{ post.date | date: "%b %-d, %Y" }}{% if post.categories != empty %} • {% include category_links.html categories=post.categories %}{% endif %}</p>
-
-  </p>{{ post.excerpt }}</p>
+  <p><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.categories != empty %} • {% include category_links.html categories=post.categories %}{% endif %}</p>
+  <div class="p-summary">{{ post.excerpt }}</div>
   {% if post.content contains site.excerpt_separator %}
     <p> <a href="{{ post.url | relative_url }}">Read on &rarr;</a> </p>
   {% endif %}
+</section>
 {% endfor %}
 <p>There's more in <a href="blog/">the archives</a>
