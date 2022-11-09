@@ -4,7 +4,12 @@ layout: default
 <article class="h-entry">
   <h3 class="p-name">{{ page.title | escape }}</h3>
   <a class="p-author h-card" href="/" hidden="">Mike Griffin</a>
-  <p><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}</p>
+  <p>
+    <a href="{{ page.url }}" class="u-url">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </a>
+    {% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}
+  </p>
 
   <div class="e-content">
     {{ content }}
