@@ -1,3 +1,16 @@
 ---
-layout: home
+layout: default
 ---
+{% for post in site.posts limit:6 %}
+  <h3>
+    <a href="{{ post.url }}">{{ post.title | escape }}{% if post.external-url %} &rarr;{% endif %}</a>
+  </h3>
+
+  <p>{{ post.date | date: "%b %-d, %Y" }}{% if post.categories != empty %} • {% include category_links.html categories=post.categories %}{% endif %}</p>
+
+  </p>{{ post.excerpt }}</p>
+  {% if post.content contains site.excerpt_separator %}
+    <p> <a href="{{ post.url | relative_url }}">Read on &rarr;</a> </p>
+  {% endif %}
+{% endfor %}
+<p>There's more in <a href="blog/">the archives</a>
