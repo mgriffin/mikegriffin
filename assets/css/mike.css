@@ -54,3 +54,16 @@ section {
   margin: 0;
   padding: 0;
 }
+nav {
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  grid-column: 1/-1;
+  background-color: var(--accent);
+}
+nav a, nav a:visited {
+  color: var(--bg);
+}
+body>footer {
+  margin-top: 1rem;
+  grid-column: 1/-1;
+}
