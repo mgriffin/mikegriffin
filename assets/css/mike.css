@@ -1,0 +1,38 @@
+:root{
+  --sans-font:-apple-system,BlinkMacSystemFont,"Avenir Next",Avenir,"Nimbus Sans L",Roboto,"Noto Sans","Segoe UI",Arial,Helvetica,"Helvetica Neue",sans-serif;
+  --mono-font:Consolas,Menlo,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  --bg:#dbcdac;
+  --accent-bg:#dda15e;
+  --text:#393431;
+  --text-light:#706d67;
+  --border:#283618;
+  --accent:#c2794e;
+  --code:#d81b60;
+  --preformatted:#444;
+  --marked:#ffdd33;
+  --disabled:#efefef;
+}
+body>header {
+  padding-bottom: 0;
+  background-color: var(--bg);
+}
+body>header h1 a, body>header h1 a:visited {
+  text-decoration: none;
+  color: var(--text);
+}
+body>header h1 a, body>header h1 a:hover {
+  color: var(--accent);
+}
+h3>a, h3>a:visited {
+  text-decoration: none;
+}
+h3>a:hover {
+  text-decoration: underline;
+}
+picture img {
+  float: right;
+  margin-left: 20px;
+}
+time {
+  color: var(--text-light);
+}
