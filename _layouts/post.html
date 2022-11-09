@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-{% if page.external-url %}
-  <h2><a href="{{ page.external-url }}">{{ page.title | escape }} &rarr;</a></h2>
-{% else %}
-  <h2>{{ page.title | escape }}</h2>
-{% endif %}
-<p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}</p>
+<article class="h-entry">
+  <h3 class="p-name">{{ page.title | escape }}</h3>
+  <p><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}</p>
 
-{{ content }}
+  <div class="e-content">
+    {{ content }}
+  </div>
+</article>

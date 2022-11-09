@@ -6,10 +6,10 @@ title: Mike Griffin's Blog
   {% for post in site.posts %}
   {% assign post_year1 = post.date | date: '%Y' %}
   {% if post_year1 != post_year2 %}
-  <h2>{{ post_year1 }}</h2>
+  <h3>{{ post_year1 }}</h3>
   {% assign post_year2 = post.date | date: '%Y' %}
   {% endif %}
-  <h4><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time>
-  <a href="{{ post.url }}">{{ post.title }}</a></h4>
+  <p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time>
+  <a href="{{ post.url }}">{{ post.title }}</a></p>
   {% endfor %}
 </div>
