@@ -5,12 +5,25 @@
   --accent-bg:#dda15e;
   --text:#393431;
   --text-light:#706d67;
-  --border:#283618;
+  --border:#706d67;
   --accent:#c2794e;
   --code:#d81b60;
   --preformatted:#444;
   --marked:#ffdd33;
   --disabled:#efefef;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #393431;
+    --accent-bg: #2b2b2b;
+    --text: #dbcdac;
+    --text-light: #ababab;
+    --accent: #ffb300;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
+  }
 }
 body>header {
   padding-bottom: 0;
