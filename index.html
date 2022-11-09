@@ -32,7 +32,7 @@ layout: default
   <h3>
     <a href="{{ post.url }}" class="u-url p-name">{{ post.title | escape }}</a>
   </h3>
-  <a class="u-author" href="/" hidden=""></a>
+  <a class="p-author h-card" href="/" hidden="">Mike Griffin</a>
   <p><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.categories != empty %} • {% include category_links.html categories=post.categories %}{% endif %}</p>
   <div class="p-summary">{{ post.excerpt }}</div>
   {% if post.content contains site.excerpt_separator %}
