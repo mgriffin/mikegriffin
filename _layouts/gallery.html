@@ -1,34 +1,20 @@
 ---
 layout: default
 ---
-<h2>{{ page.title | escape }}</h2>
-    <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}</p>
+<article class="h-entry">
+  <h3 class="p-name">{{ page.title | escape }}</h3>
+  <a class="p-author h-card" href="/" hidden="">Mike Griffin</a>
+  <p>
+    <a href="{{ page.url }}" class="u-url">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </a>
+    {% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}
+  </p>
 
-<div id="links">
-{% for photo in page.photos %}
-<a href="{{ photo.original }}" title="{{ photo.title }}" data-gallery>
-  <img src="{{ photo.thumbnail }}" alt="{{ photo.title }}">
-</a>
-{% endfor %}
-</div>
-<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-  <div class="slides"></div>
-  <h3 class="title"></h3>
-  <a class="prev">‹</a>
-  <a class="next">›</a>
-  <a class="close">×</a>
-  <a class="play-pause"></a>
-  <ol class="indicator"></ol>
-</div>
-<script src="/assets/js/blueimp-gallery.min.js"></script>
-<script>
-document.getElementById('links').onclick = function (event) {
-  event = event || window.event;
-  var target = event.target || event.srcElement,
-  link = target.src ? target.parentNode : target,
-  options = {index: link, event: event},
-  links = this.getElementsByTagName('a');
-  blueimp.Gallery(links, options);
-};
-</script>
+  <div class="e-content">
+    {% for photo in page.photos %}
+    <a href="{{ photo.original }}" title="{{ photo.title }}" data-gallery>
+      <img src="{{ photo.thumbnail }}" alt="{{ photo.title }}"></a>
+    {% endfor %}
+  </div>
+</article>
