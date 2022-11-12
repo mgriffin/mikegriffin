@@ -17,8 +17,8 @@ This is because every major browser supports the CSS media query `@media (prefer
 
 Light:
 
-![cropped screenshot of this site's light theme](/images/2022-11-10-adding-dark-mode/light-mode.jpg)
+![cropped screenshot of this site's light theme](/images/2022-11-10-adding-dark-mode/light-mode.jpg){:.screenshot}
 
 Dark:
 
-![cropped screenshot of this site's dark theme](/images/2022-11-10-adding-dark-mode/dark-mode.jpg)
+![cropped screenshot of this site's dark theme](/images/2022-11-10-adding-dark-mode/dark-mode.jpg){:.screenshot}

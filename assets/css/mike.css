@@ -46,7 +46,7 @@ picture img {
   float: right;
   margin-left: 20px;
 }
-article img {
+img.screenshot {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid var(--border);
