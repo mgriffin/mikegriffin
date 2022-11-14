@@ -1,4 +1,4 @@
 {% for category in include.categories %}
 {% assign no_comma = forloop.last %}
-{{ category }}{% unless no_comma %},{% endunless %}
+#{{ category }}{% unless no_comma %},{% endunless %}
 {% endfor %}

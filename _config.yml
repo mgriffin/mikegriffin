@@ -30,7 +30,14 @@ defaults:
     values:
       layout: "result"
       category: "result"
+  -
+    scope:
+      type: "links"
+    values:
+      layout: "link"
 
 collections:
   results:
+    output: true
+  links:
     output: true

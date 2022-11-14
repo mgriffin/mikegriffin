@@ -1,0 +1,23 @@
+---
+layout: default
+title: Bookmarks
+---
+<div>
+  {% for link in site.links reversed %}
+  <div class="bookmark h-entry">
+    <div class="p-name">
+      <a class="u-bookmark-of h-cite" href="{{ link.link }}">{{ link.title }}</a>
+      <span class="muted">({{ link.link | remove_first: 'https://' | split: '/' | first }})</span>
+    </div>
+    <div>
+      <a href="{{ link.url }}" class="u-url">
+        <time class="dt-published" datetime="{{ link.date | date_to_xmlschema }}" itemprop="datePublished">{{ link.date | date: "%b %-d, %Y" }}</time>
+      </a>
+      <div class="tags muted">
+        {% if link.tags != empty %}{% include category_links.html categories=link.tags %}{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+

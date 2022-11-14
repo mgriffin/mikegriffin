@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="bookmark h-entry">
+  <div class="p-name">
+    <a class="u-bookmark-of h-cite" href="{{ page.link }}">{{ page.title }}</a>
+    <span class="muted">({{ page.link | remove_first: 'https://' | split: '/' | first }})</span>
+  </div>
+  <div>
+    <a href="{{ page.url }}" class="u-url">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </a>
+    <div class="tags muted">
+      {% if page.tags != empty %}{% include category_links.html categories=page.tags %}{% endif %}
+    </div>
+  </div>
+</div>
+

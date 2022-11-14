@@ -75,3 +75,24 @@ body>footer {
   margin-top: 1rem;
   grid-column: 1/-1;
 }
+.bookmark {
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  padding: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.muted {
+  color: var(--text-light);
+  font-size: 90%;
+}
+.bookmark time {
+  font-size: 90%;
+}
+.bookmark a, .bookmark a:visited {
+  text-decoration: none;
+}
+.tags {
+  float: right;
+}
