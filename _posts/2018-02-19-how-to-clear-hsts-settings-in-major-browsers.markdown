@@ -2,7 +2,7 @@
 layout: post
 title: "How to Clear HSTS Settings in Major Browsers"
 date: 2018-02-19 14:09
-categories: HSTS
+tags: HSTS
 ---
 
 The page that I refer to most often for clearing HSTS settings is no longer

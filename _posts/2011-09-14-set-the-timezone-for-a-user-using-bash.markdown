@@ -2,8 +2,7 @@
 layout: post
 title: "Set the Timezone for a User Using Bash"
 date: 2011-09-14 08:46
-comments: true
-categories: 
+tags: 
 ---
 I host this site on a server that is based in the USA and therefore the timezone on 
 the server doesn't correspond with local time here in Ireland. I tried all sorts of

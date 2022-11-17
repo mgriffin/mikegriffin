@@ -2,8 +2,7 @@
 layout: post
 title: "CakePHP Tmp Directory Permissions With IIS"
 date: 2012-05-30 11:38
-comments: true
-categories: 
+tags: 
 ---
 I was installing CakePHP on a Windows server under IIS7 and I kept getting the 
 error saying that the tmp directory and the tmp/cache directory were unwriteable.

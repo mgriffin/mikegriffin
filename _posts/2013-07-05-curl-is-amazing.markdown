@@ -2,8 +2,7 @@
 layout: post
 title: "cURL Is Amazing!"
 date: 2013-07-05 16:06
-comments: true
-categories: 
+tags: 
 ---
 I wanted to connect to an API and copy each entry so that I can do some text transformations
 and the like on the data (don't ask, it's a very long story). I could have written a short

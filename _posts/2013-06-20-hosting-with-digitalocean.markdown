@@ -2,8 +2,7 @@
 layout: post
 title: "Hosting With DigitalOcean"
 date: 2013-06-20 11:46
-comments: true
-categories: 
+tags: 
 ---
 A few months ago, I was looking around for a new way to host a few sites that
 I have because my old provider was based in the states and most of my traffic

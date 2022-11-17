@@ -2,7 +2,7 @@
 layout: post
 title: Octokit and SSL
 date: 2017-09-29 11:54
-categories: memory
+tags: memory
 ---
 I do a lot of work using self signed certificates and sometimes I want to use [octokit.rb](http://octokit.github.io/octokit.rb/).
 By default, octokit tries to verify the SSL cert and fails with an error like:

@@ -2,8 +2,7 @@
 layout: post
 title: "A post to make you think and act"
 date: 2010-10-07 04:27
-comments: true
-categories: 
+tags: 
 ---
 [Memoirs of a Bullied Kid](http://www.danoah.com/2010/10/memoirs-of-bullied-kid.html)
 

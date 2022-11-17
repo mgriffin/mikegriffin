@@ -2,8 +2,7 @@
 layout: post
 title: "Change the Time of Git Commits"
 date: 2013-05-29 10:46
-comments: true
-categories: 
+tags: 
 ---
 I've been working off a virtual machine for some dev work recently and when I resumed the VM after
 it had been asleep for a while, the time was off. I hadn't set up ntp to set the time and didn't

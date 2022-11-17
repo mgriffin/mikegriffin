@@ -2,8 +2,7 @@
 layout: post
 title: "Moving From LastPass to 1Password"
 date: 2015-10-19 21:23
-comments: true
-categories: 
+tags: 
 ---
 
 Last weekend I moved my passwords from LastPass to 1Password.

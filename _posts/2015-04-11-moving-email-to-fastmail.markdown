@@ -2,8 +2,7 @@
 layout: post
 title: "Moving Email to Fastmail"
 date: 2015-04-11 11:15
-comments: true
-categories: 
+tags: 
 ---
 I've hosted my own email for the past few years, going through setting it up, moving the config to puppet, having it crash
 and burn, recreating it and reimporting all the old mails. I don't have the time to do this any more so a short while ago

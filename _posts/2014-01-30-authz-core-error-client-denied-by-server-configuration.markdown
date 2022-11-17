@@ -2,8 +2,7 @@
 layout: post
 title: "Authz_core:error Client Denied by Server Configuration"
 date: 2014-01-30 12:11
-comments: true
-categories: 
+tags: 
 ---
 I upgraded a copy of apache that was being used in work earlier and I ran in to some errors 
 that were quite puzzling.

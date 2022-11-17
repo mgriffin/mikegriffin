@@ -2,7 +2,7 @@
 layout: post
 title: "Recovering From a File That Should Have Pointers in Git"
 date: 2019-10-17 22:40
-categories: git
+tags: git
 ---
 I was working away on a project that a few other people have been working on and I ran into a problem trying to update the branch I was working on.
 It turns out that at some stage in the past, someone tried badly to add a file to the repository using `git lfs`.

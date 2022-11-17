@@ -2,8 +2,7 @@
 layout: post
 title: "Nice HTML colours"
 date: 2011-07-11 06:29
-comments: true
-categories: 
+tags: 
 ---
 A little note to remind me to use these colour codes for primary colours
 

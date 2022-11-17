@@ -2,8 +2,7 @@
 layout: post
 title: "Cropped png and jpg graphs when using scruffy"
 date: 2011-01-14 12:28
-comments: true
-categories: 
+tags: 
 ---
 
 I've been messing with the ruby graph library,

@@ -2,8 +2,7 @@
 layout: post
 title: "Creating a Debian Wheezy Base Box for Vagrant"
 date: 2013-04-18 14:36
-comments: true
-categories: 
+tags: 
 ---
 I have been playing around with [Vagrant](http://vagrantup.com) so that I can set up a VM to do some dev work on instead of trying to keep
 a number of computers in sync. I have a debian testing VPS that I use to host some sites so I wanted the VM to match that. I couldn't find

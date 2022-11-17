@@ -2,8 +2,7 @@
 layout: post
 title: "Colour Schemes to Try Out"
 date: 2011-10-25 16:25
-comments: true
-categories: 
+tags: 
 ---
 Try these three colour schemes for presentations.
 

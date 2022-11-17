@@ -2,8 +2,7 @@
 layout: post
 title: "Search Through Your Bash History"
 date: 2013-05-19 19:41
-comments: true
-categories: 
+tags: 
 ---
 You can search backwards through your bash history by using `ctrl-r`. That's a 
 fairly well known command and I've been using it for a while now so it's become

@@ -2,7 +2,7 @@
 layout: post
 title: "Changing the volume in cmus"
 date: 2020-07-10 14:53
-categories: 
+tags: 
 ---
 Sometimes I like to play music that I have on my local machine, or stream radio stations while I'm working and I've been using [cmus](https://cmus.github.io/) to do this.
 It works great and just plays away in the background, but the up to now, the volume has been just a touch too high.

@@ -2,8 +2,7 @@
 layout: post
 title: "A graphviz User Defined Language (UDL) file for notepad++"
 date: 2011-01-28 07:58
-comments: true
-categories: 
+tags: 
 ---
 
 I started looking into [graphviz](http://www.graphviz.org) for creating network

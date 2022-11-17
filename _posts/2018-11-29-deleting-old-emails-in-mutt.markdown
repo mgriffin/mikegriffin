@@ -2,7 +2,7 @@
 layout: post
 title: "Deleting Old Emails in Mutt"
 date: 2018-11-29 12:14
-categories: mutt
+tags: mutt
 ---
 A note for myself so that I won't forget how to delete older emails from my mailboxes.
 

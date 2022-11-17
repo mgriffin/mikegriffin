@@ -2,8 +2,7 @@
 layout: post
 title: "More with Sinatra and Factory_girl"
 date: 2011-04-13 07:40
-comments: true
-categories: 
+tags: 
 ---
 To add [factory_girl](https://github.com/thoughtbot/factory_girl) to rspec when
 testing a sinatra app, you only have to do a couple of things. First off,

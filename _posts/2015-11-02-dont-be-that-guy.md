@@ -2,8 +2,7 @@
 layout: post
 title: "Don't Be That Guy"
 date: 2015-11-02 16:00
-comments: true
-categories: 
+tags: 
 ---
 ![Me, playing canoe polo](/images/2015-11-02-dont-be-that-guy/mike.jpg "me, playing canoe polo")
 

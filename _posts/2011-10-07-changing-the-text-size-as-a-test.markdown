@@ -2,8 +2,7 @@
 layout: post
 title: "Changing the Text Size as a Test"
 date: 2011-10-07 15:28
-comments: true
-categories: 
+tags: 
 ---
 I was browsing through [Hacker News](http://http://news.ycombinator.com/)
 earlier and I saw a post from [Smashing Magazine](http://www.smashingmagazine.com)

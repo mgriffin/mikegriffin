@@ -2,8 +2,7 @@
 layout: post
 title: "Puppet Errors With Version 3.0 and Passenger"
 date: 2012-10-05 10:39
-comments: true
-categories: 
+tags: 
 ---
 I have set up a test [Puppet](http://puppetlabs.com/) server in work to manage
 server configurations. I'm using version 3.0.0 on a debian host with a

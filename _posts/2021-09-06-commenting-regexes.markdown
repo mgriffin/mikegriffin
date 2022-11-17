@@ -2,8 +2,7 @@
 layout: post
 title: "Commenting Regexes"
 date: 2021-09-06 11:19
-comments: true
-categories: programming
+tags: programming
 ---
 Regexes are really useful but as the old saying goes:
 

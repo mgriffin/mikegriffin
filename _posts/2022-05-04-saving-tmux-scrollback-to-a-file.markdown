@@ -2,8 +2,7 @@
 layout: post
 title: "Saving Tmux Scrollback to a File"
 date: 2022-05-04 17:15
-comments: true
-categories: 
+tags: tmux
 ---
 I do most of my console work using tmux so that I can get multiple windows to see different things at the same time.
 Sometimes, I copy the scrollback from one pane into a file so that I can save it or work on it in some way.

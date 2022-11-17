@@ -2,8 +2,7 @@
 layout: post
 title: "Mikegriffin.ie Is Now Using SSL"
 date: 2013-02-25 13:17
-comments: true
-categories: 
+tags: 
 ---
 As of last week, this site is set up to use https. It shouldn't make much of a
 difference, if any, to the usage of the site apart from encrypting the traffic

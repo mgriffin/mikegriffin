@@ -2,8 +2,7 @@
 layout: post
 title: "Dublin Bikes"
 date: 2012-05-29 21:08
-comments: true
-categories: 
+tags: 
 ---
 ![dublin bikes]({{ site.url}}//images/2012-05-29-dublin-bikes/db_4.jpg "dublin bikes") 
 

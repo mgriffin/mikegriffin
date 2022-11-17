@@ -2,8 +2,7 @@
 layout: post
 title: "Indent PHP Switch Statements Properly With Vim"
 date: 2014-07-01 15:42
-comments: true
-categories: 
+tags: 
 ---
 I use vim as my main editor and it works great, except for one thing. Indenting `switch`
 statements in vim. For some reason, vim seems to think that this is the right way:

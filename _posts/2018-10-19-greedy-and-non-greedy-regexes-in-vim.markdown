@@ -2,7 +2,7 @@
 layout: post
 title: "Greedy and Non Greedy Regexes in Vim"
 date: 2018-10-19 19:51
-categories: vim
+tags: vim
 ---
 I was messing around with some text manipulation recently.
 You know the type of thing, copy a table from a webpage and transform it to a CSV file or to JSON, nothing too difficult, but it can be time consuming.

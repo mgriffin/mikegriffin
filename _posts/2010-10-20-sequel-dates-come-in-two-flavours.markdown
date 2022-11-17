@@ -2,8 +2,7 @@
 layout: post
 title: "Sequel dates come in two flavours"
 date: 2010-10-20 09:48
-comments: true
-categories: 
+tags: 
 ---
 
 When you have a `datetime` field in your database, by default it returns it as

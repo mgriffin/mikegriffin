@@ -2,8 +2,7 @@
 layout: post
 title: "Don't Lock Yourself Out When Remotely Administering Cisco Switches"
 date: 2012-08-09 14:54
-comments: true
-categories: 
+tags: 
 ---
 Remotely administering switches is very handy until you input a command and hit
 enter and then...nothing. You've done something to drop the connection that you

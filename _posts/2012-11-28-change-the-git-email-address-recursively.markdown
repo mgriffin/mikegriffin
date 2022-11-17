@@ -2,8 +2,7 @@
 layout: post
 title: "Change the Git Email Address Recursively"
 date: 2012-11-28 02:48
-comments: true
-categories: 
+tags: 
 ---
 Have you ever started a git repository and made some commits before realising
 that you hadn't set up your email address correctly? I seem to do it too often,

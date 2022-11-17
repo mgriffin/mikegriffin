@@ -2,8 +2,7 @@
 layout: post
 title: "Ironic Sign"
 date: 2011-09-12 04:46
-comments: true
-categories: 
+tags: 
 ---
 I was driving along the road last Saturday and out of the corner of my eye, I spotted this sign. I knew the style
 of it so I had to go back and see if it was what I thought it was. Indeed it was. Slightly ironic seeing as the

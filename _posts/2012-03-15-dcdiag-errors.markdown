@@ -2,8 +2,7 @@
 layout: post
 title: "Dcdiag Errors"
 date: 2012-03-15 16:30
-comments: true
-categories: 
+tags: 
 ---
 Using windows Server 2008 can sometimes throw up some strange and frankly
 confusing errors.

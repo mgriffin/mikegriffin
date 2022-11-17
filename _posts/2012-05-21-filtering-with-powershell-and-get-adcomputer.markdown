@@ -2,8 +2,7 @@
 layout: post
 title: "Filtering With Powershell and Get-ADComputer"
 date: 2012-05-21 16:53
-comments: true
-categories: 
+tags: 
 ---
 Using Powershell to automate Windows administration tasks is a fairly common
 thing. I wanted to find out which Active Directory Computer accounts were

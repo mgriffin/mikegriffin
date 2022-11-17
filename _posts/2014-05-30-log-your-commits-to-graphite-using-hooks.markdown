@@ -2,8 +2,7 @@
 layout: post
 title: "Log Your Commits to Graphite Using Hooks"
 date: 2014-05-30 17:33
-comments: true
-categories: 
+tags: 
 ---
 Everyone says graphite is great but you need to have data in there to make any use of it. 
 The best way to get data in is to do it automatically.

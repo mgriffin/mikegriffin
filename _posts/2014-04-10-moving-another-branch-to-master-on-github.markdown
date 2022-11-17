@@ -2,8 +2,7 @@
 layout: post
 title: "Moving Another Branch to Master on Github"
 date: 2014-04-10 21:20
-comments: true
-categories: 
+tags: 
 ---
 I've been rewriting [my other site](https://watchmetrain.net) over the last few
 months and I was using a different branch to develop on. It has finally come to

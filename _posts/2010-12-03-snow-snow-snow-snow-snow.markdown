@@ -2,8 +2,7 @@
 layout: post
 title: "Snow, snow, snow, snow, snow"
 date: 2010-12-03 03:41
-comments: true
-categories: 
+tags: 
 ---
 
 Here's some pictures of the snow. The first one is from the first snowfall, looking out the bedroom window

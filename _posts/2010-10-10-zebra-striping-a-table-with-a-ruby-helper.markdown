@@ -2,8 +2,7 @@
 layout: post
 title: "Zebra striping a table with a ruby helper"
 date: 2010-10-10 04:27
-comments: true
-categories: 
+tags: 
 ---
 I was trying to find a way to alternate the row colours in an HTML table for a Ruby application and stumbled across [this DZone snippet](http://snippets.dzone.com/posts/show/411).
 

@@ -2,8 +2,7 @@
 layout: post
 title: "Obligatory First Post"
 date: 2010-10-06 04:27
-comments: true
-categories: 
+tags: 
 ---
 Welcome to the new home of my writings and ravings. I will be using this space
 to make notes of things that I like, don't like and have learned over the

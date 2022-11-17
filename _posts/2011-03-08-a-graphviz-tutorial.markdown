@@ -2,8 +2,7 @@
 layout: post
 title: "A graphviz tutorial"
 date: 2011-03-08 04:11
-comments: true
-categories: 
+tags: 
 ---
 
 Following on from [this post]({% post_url 2011-01-28-a-graphviz-user-defined-language-udl-file-for-notepad %})

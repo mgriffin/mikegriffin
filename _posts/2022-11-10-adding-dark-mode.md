@@ -2,7 +2,7 @@
 layout: post
 title: "Adding dark mode"
 date: 2022-11-10 09:15
-categories: site
+tags: site
 ---
 Yesterday I did a bit of a refurb around the place, changing the look and colours a little bit.
 On top of this I added [dark mode](https://github.com/mgriffin/mikegriffin/commit/39478c62097646f13425e2a2998c3bf564306cbf) which should work automatically depending on your OS settings.

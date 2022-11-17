@@ -2,8 +2,7 @@
 layout: post
 title: "Sunset From the Museum"
 date: 2012-01-16 14:19
-comments: true
-categories: 
+tags: 
 ---
 I captured a sunset as I was leaving work one evening last week.
 

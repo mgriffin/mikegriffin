@@ -2,8 +2,7 @@
 layout: post
 title: "Updating PHP Composer for Travis CI"
 date: 2014-01-16 09:37
-comments: true
-categories: 
+tags: 
 ---
 I've been playing around with [Travis CI](https://travis-ci.org) recently with
 a PHP project that uses [composer](http://getcomposer.org). Composer recently

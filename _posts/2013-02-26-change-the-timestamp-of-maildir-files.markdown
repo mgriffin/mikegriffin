@@ -2,8 +2,7 @@
 layout: post
 title: "Change the Timestamp of Maildir Files"
 date: 2013-02-26 12:47
-comments: true
-categories: 
+tags: 
 ---
 I've been moving some things around and set up my own mail hosting using Postfix and 
 Dovecot. I set it up to save my mails into a Maildir format mailbox and then

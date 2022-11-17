@@ -2,8 +2,7 @@
 layout: post
 title: "21 Gun Salute Practice"
 date: 2011-11-04 11:18
-comments: true
-categories: 
+tags: 
 ---
 The army have invaded Collins Barracks again today. This time it's to practice
 for the 21 gun salute for the President's inauguration. Here's a few photos.

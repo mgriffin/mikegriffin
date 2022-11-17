@@ -2,8 +2,7 @@
 layout: post
 title: "RSyslog and LogRotate"
 date: 2012-06-19 09:49
-comments: true
-categories: 
+tags: 
 ---
 A while ago I set up remote syslog collection for PIX firewall logs. It's been
 working okay but something wasn't quite right. The logs were changing every seven

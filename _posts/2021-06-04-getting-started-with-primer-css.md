@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Primer CSS
 date: 2021-06-04 21:20
-categories: 
+tags: 
 ---
 
 [Primer CSS](https://primer.style/css/) is the framework that GitHub.com uses for its design and it has a whole bunch of well designed bits that go together.

@@ -2,8 +2,7 @@
 layout: post
 title: "Using Pipe With Ruby Scripts"
 date: 2016-05-25 11:50
-comments: true
-categories: 
+tags: 
 ---
 I've been writing some Ruby scripts recently to parse some text files and I was
 looking for a way to pass in only part of a file instead of the full 1500

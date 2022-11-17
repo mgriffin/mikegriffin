@@ -2,8 +2,7 @@
 layout: post
 title: "Accessing MSSQL With PHP on Debian Linux"
 date: 2012-08-31 11:54
-comments: true
-categories: 
+tags: 
 ---
 We use MSSQL in work. And we use IIS as an internal web server. I want to develop
 some small applications in a throwaway scratch space before I upload them to the

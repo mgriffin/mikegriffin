@@ -2,8 +2,7 @@
 layout: post
 title: "Autocomplete SSH Hosts"
 date: 2016-10-12 22:22
-comments: true
-categories: 
+tags: 
 ---
 
 Once upon a long time ago, I had autocomplete set up in ZSH to complete hosts that I connected to through SSH. Only in the last few days have I set it up again in bash.

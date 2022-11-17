@@ -2,8 +2,7 @@
 layout: post
 title: "A real live Alot"
 date: 2010-10-12 04:27
-comments: true
-categories: 
+tags: 
 ---
 
 Some people have told me that I have Grammar Nazi tendencies and that I should

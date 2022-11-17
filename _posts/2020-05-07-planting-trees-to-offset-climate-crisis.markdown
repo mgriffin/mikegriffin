@@ -2,7 +2,7 @@
 layout: post
 title: "Planting Trees to Offset Climate Crisis"
 date: 2020-05-07 23:46
-categories: climate trees
+tags: climate trees
 ---
 <a href="https://offset.earth/?r=5ea0c82962f64a00179ea048"><img src="/images/sparkle.png" alt="sparkle tree link from offset.earth" style="float: left"></a>
 I've recently signed up to [Offset Earth](https://offset.earth) after following [Phil Sturgeon on Twitter](https://twitter.com/philsturgeon).

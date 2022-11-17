@@ -2,8 +2,7 @@
 layout: post
 title: "Installing the nokogiri gem on Snow Leopard"
 date: 2010-10-12 13:49
-comments: true
-categories: 
+tags: 
 ---
 
 I was trying to install capybara to do some testing and it was failing on the install of nokogiri. The error I was getting was

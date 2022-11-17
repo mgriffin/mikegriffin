@@ -2,8 +2,7 @@
 layout: post
 title: "What I did yesterday"
 date: 2010-10-07 03:49
-comments: true
-categories: 
+tags: 
 ---
 
 The blog went live and I added one or two extra bits to the site. I've created an "error page":/404 and also added some very basic logging. I've wanted to do this for ages, mainly as a test to see if it's worth it over something like Google Analytics.

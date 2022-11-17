@@ -2,7 +2,7 @@
 layout: post
 title: "Fuzzy Searching Files in a Specific Directory in Vim"
 date: 2022-09-01 14:34
-categories: 
+tags: 
 ---
 I've been using [vimwiki](http://vimwiki.github.io/) for a little while to take notes as I work through the day.
 One issue that I had was that I had no easy way to search through older notes without dropping out of vim and manually searching.

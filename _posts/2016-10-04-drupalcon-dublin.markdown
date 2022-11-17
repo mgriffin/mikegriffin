@@ -2,8 +2,7 @@
 layout: post
 title: "Drupalcon Dublin"
 date: 2016-10-04 21:16
-comments: true
-categories: 
+tags: 
 ---
 
 ![my commute along the Liffey](/images/2016-10-04-drupalcon-dublin/commute.jpg)

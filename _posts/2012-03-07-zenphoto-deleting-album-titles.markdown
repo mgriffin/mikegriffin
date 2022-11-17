@@ -2,8 +2,7 @@
 layout: post
 title: "Zenphoto Deleting Album Titles"
 date: 2012-03-07 15:37
-comments: true
-categories: 
+tags: 
 ---
 I run an installation of Zenphoto for my [Dad and the photos he
 takes](http://www.photosofblacklion.net). I recently upgraded it from an older

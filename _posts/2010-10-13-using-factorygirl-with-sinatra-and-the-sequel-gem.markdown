@@ -2,8 +2,7 @@
 layout: post
 title: "Using factory_girl with sinatra and the sequel gem"
 date: 2010-10-13 14:27
-comments: true
-categories: 
+tags: 
 ---
 
 Sequel does not appear to have a `save!` method which means that using [factory_girl](https://github.com/thoughtbot/factory_girl) is a bit more involved. Instead of being able to write `Factory.create` and have the model saved, I found that I had to do it in two steps.

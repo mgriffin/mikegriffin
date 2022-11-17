@@ -2,7 +2,7 @@
 layout: post
 title: Speaking at the Waterford Tech Meetup
 date: 2017-02-03 22:50
-categories: speaking
+tags: speaking
 ---
 ![](/images/2017-02-03-waterford-tech-meetup/boxworks.jpg)
 

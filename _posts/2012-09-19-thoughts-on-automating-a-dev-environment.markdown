@@ -2,8 +2,7 @@
 layout: post
 title: "Thoughts on Automating a Dev Environment"
 date: 2012-09-19 22:48
-comments: true
-categories: 
+tags: 
 ---
 I was out for a run earlier and as sometimes happens when I run on my own, my mind
 started to wander. Most of the time it leads to places that can't be remembered when

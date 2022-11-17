@@ -2,8 +2,7 @@
 layout: post
 title: "Arithmetic in Vim"
 date: 2013-05-19 00:02
-comments: true
-categories: 
+tags: 
 ---
 Have you ever wanted to do some simple arithmetic in vim? Did you have a list of
 times that you wanted to transform into seconds? I did and here's how I did it.

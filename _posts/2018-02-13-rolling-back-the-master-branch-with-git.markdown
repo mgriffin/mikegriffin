@@ -2,8 +2,7 @@
 layout: post
 title: "Rolling Back the Master Branch With Git"
 date: 2018-02-13 14:35
-comments: true
-categories: 
+tags: 
 ---
 
 Have you ever wanted to roll back your `master` branch in a Git repository so that there is nothing left of your commits?
