@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign alldocs = site.documents %}
+{% assign tags = alldocs | map: 'tags' | join: ',' | split: ',' | group_by: tag %}
+{% for tag in tags %}
+<h3 id="{{ tag.name }}">#{{ tag.name }}</h3>
+<ul>
+  {% for doc in alldocs %}
+  {% if doc.tags contains tag.name %}
+  <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
