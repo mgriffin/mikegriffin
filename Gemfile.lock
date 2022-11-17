@@ -16,8 +16,11 @@ GEM
     colorator (1.1.0)
     commonmarker (0.23.6)
     concurrent-ruby (1.1.10)
+    connection_pool (2.3.0)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -86,6 +89,8 @@ GEM
     html-pipeline (2.14.2)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
     http_parser.rb (0.8.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -205,13 +210,30 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    mechanize (2.8.5)
+      addressable (~> 2.8)
+      domain_name (~> 0.5, >= 0.5.20190701)
+      http-cookie (~> 1.0, >= 1.0.3)
+      mime-types (~> 3.0)
+      net-http-digest_auth (~> 1.4, >= 1.4.1)
+      net-http-persistent (>= 2.5.2, < 5.0.dev)
+      nokogiri (~> 1.11, >= 1.11.2)
+      rubyntlm (~> 0.6, >= 0.6.3)
+      webrick (~> 1.7)
+      webrobots (~> 0.1.2)
     mercenary (0.3.6)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
     mini_portile2 (2.8.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.16.3)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (4.0.1)
+      connection_pool (~> 2.2)
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -228,6 +250,7 @@ GEM
     rexml (3.2.5)
     rouge (3.26.0)
     ruby2_keywords (0.0.5)
+    rubyntlm (0.6.3)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -252,6 +275,7 @@ GEM
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
     webrick (1.7.0)
+    webrobots (0.1.2)
     zeitwerk (2.6.0)
 
 PLATFORMS
@@ -259,6 +283,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  mechanize
   webrick
 
 BUNDLED WITH

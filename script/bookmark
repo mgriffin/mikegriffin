@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+
+require 'date'
+require 'mechanize'
+
+date = DateTime.now.strftime("%Y-%m-%dT%H:%MZ")
+link = ARGV[0]
+title = Mechanize.new.get(link).title
+tags = ARGV[1..-1]
+slug = DateTime.now.strftime("%Y-%m-%d-") + title      .gsub(/\s+/, "-")        # replace spaces with -
+      .gsub(/&/, "-and-")      # replace & with -and-
+      .gsub(%r{[^\w\-/]+}, "") # remove all non-word chars except - and /
+      .gsub(%r{/}, "-")        # replace / with -
+      .gsub(/\-\-+/, "-")      # replace multiple - with single -
+      .gsub(/^-/, "")          # remove leading -
+      .gsub(/-$/, "")          # remove trailing -
+      .downcase
+
+
+body = <<~TEXT
+---
+date: #{date}
+link: #{link}
+title: #{title}
+tags: #{tags.join(' ')}
+---
+TEXT
+
+File.open(File.absolute_path(File.join(__dir__, "/../_links/#{slug}.md")), "w") do |f|
+  f.puts body
+end
