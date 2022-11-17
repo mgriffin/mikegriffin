@@ -8,7 +8,7 @@ layout: default
     <a href="{{ page.url }}" class="u-url">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
     </a>
-    {% if page.categories != empty %} • {% include category_links.html categories=page.categories %}{% endif %}
+    {% if page.tags != empty %} • {% include category_links.html categories=page.tags %}{% endif %}
   </p>
 
   <div class="e-content">
