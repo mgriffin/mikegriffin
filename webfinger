@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /.well-known/webfinger
+---
+{
+  "subject": "acct:maidhc@mastodon.ie",
+  "aliases": [
+    "https://mastodon.ie/@maidhc",
+    "https://mastodon.ie/users/maidhc"
+  ],
+  "links": [
+     {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.ie/@maidhc"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.ie/users/maidhc"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.ie/authorize_interaction?uri={uri}"
+    }
+  ]
+}
