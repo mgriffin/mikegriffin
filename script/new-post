@@ -1,0 +1,32 @@
+#!/bin/bash
+
+set -e
+
+TODAY=$(date +"%Y-%m-%d")
+
+if [ $# -eq 0 ]; then
+  echo "Gonna need a title"
+  exit
+fi
+
+TITLE=$(echo $1 | sed 's/ /-/g' | tr "[:upper:]" "[:lower:]")
+echo $TITLE
+FILENAME=_posts/$TODAY-$TITLE.md
+echo $FILENAME
+
+if [ ! -z $FILENAME ]; then
+  echo $FILENAME does not exist
+  # The heredoc is indented with actual tabs on purpose
+  # <<- removes these in the final file
+  cat <<- EOF > $FILENAME
+	---
+	layout: post
+	title: $1
+	date: $TODAY
+	tags: 
+	---
+	
+	EOF
+fi
+
+vim +7 $FILENAME
