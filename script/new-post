@@ -5,14 +5,13 @@ set -e
 TODAY=$(date +"%Y-%m-%d")
 
 if [ $# -eq 0 ]; then
-  echo "Gonna need a title"
-  exit
+  read -p "Post title: " TITLE
+else
+  TITLE=$*
 fi
 
-TITLE=$(echo $1 | sed 's/ /-/g' | tr "[:upper:]" "[:lower:]")
-echo $TITLE
-FILENAME=_posts/$TODAY-$TITLE.md
-echo $FILENAME
+SLUG=$(echo $TITLE | sed 's/ /-/g' | tr "[:upper:]" "[:lower:]")
+FILENAME=_posts/$TODAY-$SLUG.md
 
 if [ ! -z $FILENAME ]; then
   echo $FILENAME does not exist
@@ -21,7 +20,7 @@ if [ ! -z $FILENAME ]; then
   cat <<- EOF > $FILENAME
 	---
 	layout: post
-	title: $1
+	title: "$TITLE"
 	date: $TODAY
 	tags: 
 	---
