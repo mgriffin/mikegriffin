@@ -27,9 +27,10 @@ On each lap, I followed Peter from Swinford, going wide along the long straight 
 The hill was a complete killer each time, coming to it and getting slower and slower.
 There was no time to recover at the top, it was straight into thick slippery mud.
 
-For the last couple of laps I was going back and forth with a gut from North Leitrim, but he was doing the longer eight lap race.
+For the last couple of laps I was going back and forth with a guy from North Leitrim, but he was doing the longer eight lap race.
 On my last lap, I let go on the last part of the downhill and kept pushing on to the finish, so glad to be done!
 
 I finished in 7th place and 3rd over 35.
 I have to be pretty happy with that result, given the conditions and that I'd picked up a head cold two days before.
 
+[Have a look at some pictures from the event](https://photosofblacklion.net/2022-11-06-connaught-cross-country)
