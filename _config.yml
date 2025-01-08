@@ -6,6 +6,7 @@ repository: "mgriffin/mikegriffin"
 exclude: 
   - Rakefile
   - README.md
+  - LICENSE
   - _drafts
   - Gemfile
   - Gemfile.lock
