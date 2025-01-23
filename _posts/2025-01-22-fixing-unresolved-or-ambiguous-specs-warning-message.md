@@ -6,7 +6,8 @@ tags:
 ---
 In the last few days every time I ran a Ruby command or anything to do with Rails or RubyGems, I got this warning:
 
-```$ bin/rails c
+```
+$ bin/rails c
 WARN: Unresolved or ambiguous specs during Gem::Specification.reset:
       stringio (>= 0)
       Available/installed versions of this gem:
