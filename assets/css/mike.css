@@ -96,3 +96,14 @@ body>footer {
 .tags {
   float: right;
 }
+table td:nth-child(2) {
+  text-align: right;
+}
+table td:nth-child(3), table td:nth-child(4) {
+  text-align: center;
+}
+table img {
+  height: 35px;
+  padding: 0 5px;
+  vertical-align: middle;
+}
